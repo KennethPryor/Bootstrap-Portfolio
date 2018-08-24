@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+.centerbox {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+ #aboutmeimg {
+     display: none;
+ }
+
+ .footer {
+     position: sticky;
+     bottom: 0px;
+     width: 100%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+.centerbox {
+    width: 90%;
+    margin: 10px auto;
+}
+
+ .footer {
+     position: sticky;
+     bottom: 0px;
+     width: 100%;
+ }
+}
+
+/* I did not use a 960px screen b/c website was built around it to begin with */
